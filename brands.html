@@ -1,0 +1,144 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+     <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <title>Downloads</title>
+     <link rel="icon" href="./assets/img/cherish.svg">
+
+     <!-- Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/brand.css">
+    <!--Footer-->
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <link rel="stylesheet" href="./assets/css/back-to-top.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="download">
+            <div class="container1">
+                <div class="row1">
+                    <div class="text-center">
+                        <h2><span>Downloads</span></h2>
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul id="filter-list">
+                            <li class="active"><a href=""./brands.html"">Choose Brand</a></li>
+                    </ul>
+                    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+                    <script type="text/javascript">
+                    $(document).on('click','ul li',function(){
+                        $(this).addClass('active').siblings().removeClass('active')
+                    })
+                    </script>
+                
+                </div>
+            </div>
+
+    <!-- Center Brands -->
+    <div id="brands">
+         <div class="container1">
+        <div class="box">
+            <div class="brand-item-asus">
+                <img src="assets/img/brands/asus.png">
+            </div>
+            <!--Content Brands-->
+            <div class="brand-data">
+                <h3 class="brandname">								
+				<a href="#">Asus</a></h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="brand-item-oneplus">
+                <img src="assets/img/brands/oneplus.png">
+            </div>
+            <!--Content Brands-->
+            <div class="brand-data">
+                <h4 class="brandname">								
+				<a href="#">OnePlus</a></h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="brand-item-xiaomi">
+                <img src="assets/img/brands/xiaomi.png">
+            </div>
+            <!--Content Brands-->
+            <div class="brand-data">
+                <h5 class="brandname">								
+				<a href="#">Xiaomi</a></h5>
+            </div>
+        </div>
+    </div>
+    </div>
+        </div>
+
+        <!--Footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Cherish</h4>
+                        <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#screenshot">Screenshots</a></li>
+                        <li><a href="./index.html#team">Team</a></li>
+                        <li><a href="./policy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="https://t.me/CherishOS_chat">Support</a></li>
+                            <li><a href="https://t.me/CherishOS">Channel</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <ul class="sci">
+                                <li><a href="#"><img src="./assets/img/icon/facebook.png"></a></li>
+                                <li><a href="https://t.me/CherishOS"><img src="./assets/img/icon/telegram.png"></a></li>
+                                <li><a href="#"><img src="./assets/img/icon/instagram.png"></a></li>
+                                <li><a href="https://www.paypal.me/hungphan2001"><img src="./assets/img/icon/donate.png"></a></li>
+                            </ul> 
+                            <p>Made with ♥ Hung Phan © 2021 CherishOS.</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+       <img onclick="topFunction()" id="back-to-top" src="assets/img/arrow.png" style="display: block; width: 50px;">
+  
+  <script>
+  //Get the button
+  var mybutton = document.getElementById("back-to-top");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+    </body>
+</html>
